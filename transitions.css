@@ -1,0 +1,59 @@
+body {
+  background: #333;
+}
+
+.box{
+  background: white;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  top: 200px;
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.28, 1.06, 1, 0.4);
+  transition-delay: 0.5s; */
+  transition: all 2s cubic-bezier(0.28, 1.06, 1, 0.4) 0.5s;
+}
+
+.box:hover{
+  background: red;
+  border-radius: 50%;
+  width: 500px;
+  /* transform: rotateY(180deg); */
+}
+
+/* 
+TRANSITIONAL PROPERTIES
+-Properties that have an identifiable halfway point
+
+background-color 
+background-position 
+border-color 
+border-width 
+border-spacing 
+bottom 
+color
+font-size 
+font-weight 
+height left 
+letter-spacing 
+line-height 
+margin 
+max-height 
+max-width 
+min-height 
+min-width 
+opacity 
+outline-color 
+outline-offset 
+outline-width 
+padding right 
+text-indent 
+text-shadow 
+top 
+vertical-align 
+visibility 
+width 
+word-spacing 
+z-index */
